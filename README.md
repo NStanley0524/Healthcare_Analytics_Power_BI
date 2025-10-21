@@ -33,6 +33,22 @@ The project was built to address the following business objectives:
 
 ---
 
+## Dataset
+
+The dataset used in this project was a simulated healthcare dataset structured around a hospital scenario. It reflects real-world data patterns and includes details on:
+
+- Patient demographics and visit history  
+- Admission and appointment status  
+- Departmental allocation and doctor assignments  
+- Treatment types, diagnoses, and outcomes  
+- Readmission flags and visit duration metrics
+
+The data was pre-cleaned and modeled into a **star schema**, ensuring it's optimized for performance and scalability in Power BI.
+
+> ⚠️ Note: This dataset is fictional and intended for educational and portfolio purposes only. No real patient data is used.
+
+---
+
 ## Tools & Technologies
 
 | Tool | Use |

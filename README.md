@@ -33,7 +33,7 @@ The project was built to address the following business objectives:
 
 ---
 
-## Dataset
+## Datasource
 
 The dataset used in this project was a simulated healthcare dataset structured around a hospital scenario. It reflects real-world data patterns and includes details on:
 

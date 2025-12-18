@@ -171,6 +171,204 @@ Below is an illustration of the data model:
 
 ---
 
+
+## Business Recommendations
+
+### 1 Reduce Readmissions Through Structured Post-Discharge Care
+
+### Problem Identified  
+A noticeable portion of patients are **returning or readmitted**, indicating gaps in post-treatment follow-up and continuity of care.
+
+### Action  
+Introduce a standardized post-discharge follow-up program.
+
+### How to Implement  
+- Create discharge protocols that include:
+  - Mandatory follow-up appointments before discharge
+  - Clear medication and care instructions logged digitally
+- Assign nurses or care coordinators to conduct **48–72 hour post-discharge check-ins** for high-risk patients.
+- Track **readmission rates by department and diagnosis** monthly in Power BI.
+
+### Owner  
+Hospital Administration / Care Coordination Team
+
+### Expected Impact  
+- Reduced readmission rates  
+- Improved patient recovery outcomes  
+- Lower operational costs from repeat visits  
+
+---
+
+### 2 Alleviate Pressure in High-Demand Departments (Emergency & Cardiology)
+
+### Problem Identified  
+**Emergency and Cardiology** departments experience high wait times and near-full bed occupancy.
+
+### Action  
+Optimize resource allocation and patient flow in high-demand departments.
+
+### How to Implement  
+- Adjust staff scheduling to align with **peak hours and days** identified in the dashboard.
+- Introduce fast-track protocols for low-risk emergency cases.
+- Redirect non-critical cases to outpatient or less congested departments when possible.
+- Monitor bed occupancy and waiting metrics daily using operational dashboards.
+
+### Owner  
+Hospital Operations / Department Heads
+
+### Expected Impact  
+- Reduced patient wait times  
+- Improved patient satisfaction  
+- Lower staff burnout in critical departments  
+
+---
+
+### 3 Balance Doctor Workload to Improve Treatment Outcomes
+
+### Problem Identified  
+Doctors with **higher patient loads** tend to have slightly lower recovery rates.
+
+### Action  
+Redistribute patient assignments more evenly across doctors.
+
+### How to Implement  
+- Set workload thresholds per doctor based on historical performance data.
+- Use Power BI insights to identify underutilized doctors.
+- Introduce rotating schedules or cross-department support during peak periods.
+- Include workload balance as a KPI in performance reviews.
+
+### Owner  
+Medical Director / Human Resources
+
+### Expected Impact  
+- Improved recovery rates  
+- More sustainable doctor workloads  
+- Better overall quality of care  
+
+---
+
+### 4 Scale Best Practices from High-Performing Doctors
+
+### Problem Identified  
+A subset of doctors consistently shows **exceptionally high treatment success rates**.
+
+### Action  
+Standardize and replicate best-performing clinical practices.
+
+### How to Implement  
+- Analyze treatment methods, visit durations, and diagnostic patterns of top-performing doctors.
+- Document these methods into **clinical best-practice guidelines**.
+- Introduce peer learning sessions and internal training led by high performers.
+- Track department-level improvements after implementation.
+
+### Owner  
+Clinical Leadership / Quality Assurance Team
+
+### Expected Impact  
+- Higher overall treatment success rates  
+- Reduced variability in patient outcomes  
+- Faster skill development across staff  
+
+---
+
+### 5 Strengthen Oncology Treatment Outcomes
+
+### Problem Identified  
+**Oncology** treatments show lower-than-average success rates compared to other departments.
+
+### Action  
+Conduct targeted performance and process reviews within Oncology.
+
+### How to Implement  
+- Break down oncology outcomes by:
+  - Treatment type  
+  - Visit duration  
+  - Readmission status  
+- Introduce multidisciplinary case reviews for complex oncology cases.
+- Invest in early-detection programs and patient education for oncology-related conditions.
+- Monitor oncology KPIs separately on executive dashboards.
+
+### Owner  
+Oncology Department Head / Hospital Leadership
+
+### Expected Impact  
+- Improved oncology treatment outcomes  
+- Earlier intervention and diagnosis  
+- Enhanced patient trust and care quality  
+
+---
+
+### 6 Proactively Manage Chronic Illness Growth Trends
+
+### Problem Identified  
+Cases of **chronic illnesses** such as hypertension are steadily increasing.
+
+### Action  
+Shift from reactive treatment to preventive care programs.
+
+### How to Implement  
+- Launch chronic disease management clinics or programs.
+- Schedule routine follow-ups and monitoring for chronic patients.
+- Partner with community health organizations for lifestyle and wellness education.
+- Track chronic illness visit trends and outcomes quarterly.
+
+### Owner  
+Public Health Unit / Preventive Care Team
+
+### Expected Impact  
+- Reduced long-term hospital visits  
+- Better patient quality of life  
+- Lower long-term healthcare costs  
+
+---
+
+### 7 Use Time-Based Insights to Optimize Staffing and Operations
+
+### Problem Identified  
+Hospital activity peaks at specific **hours and weekdays**, causing uneven workload distribution.
+
+### Action  
+Align staffing and operational capacity with demand patterns.
+
+### How to Implement  
+- Adjust nurse and doctor shift rosters based on hourly and weekday trends.
+- Increase diagnostic and support staff availability during peak periods.
+- Use Power BI alerts to flag unusually high activity in real time.
+
+### Owner  
+Hospital Operations / Workforce Planning Team
+
+### Expected Impact  
+- Smoother hospital operations  
+- Shorter patient wait times  
+- Improved staff efficiency and morale  
+
+---
+
+### 8 Expand Patient-Centric Care Using Location and Age Insights
+
+### Problem Identified  
+Most patients come from **nearby urban areas**, with distinct age group patterns.
+
+### Action  
+Tailor services and outreach programs to dominant patient demographics.
+
+### How to Implement  
+- Design age-specific care programs (e.g., pediatrics education, geriatric care plans).
+- Collaborate with local clinics and pharmacies in high-density patient areas.
+- Track outreach effectiveness by monitoring visit trends post-initiative.
+
+### Owner  
+Hospital Strategy / Community Outreach Team
+
+### Expected Impact  
+- Stronger community engagement  
+- Increased preventive care uptake  
+- Improved patient loyalty and outcomes  
+
+---
+
+
 ## Future Enhancements
 
 - Add **Row-Level Security (RLS)** to restrict views by department.

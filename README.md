@@ -112,7 +112,7 @@ This section focuses on understanding patient behavior, visit trends, and demogr
 
 **Patient Analytics**
 
-![Patient Page](Images/Patients%20page.png)
+![Patient Page](Images/Patients.png)
 
 ---
 
@@ -140,7 +140,7 @@ This section evaluates hospital operations at the department level.
 
 **Department Analytics**
 
-![Department Page](Images/Department%20page.png)
+![Department Page](Images/Departments.png)
 
 ---
 
@@ -168,7 +168,7 @@ This section analyzes doctor workload and treatment effectiveness.
 
 **Doctor Analytics**
 
-![Doctor Page](Images/Doctors%20page.png)
+![Doctor Page](Images/Doctors.png)
 
 ---
 
@@ -196,7 +196,7 @@ This section evaluates treatment effectiveness, cost, and outcomes.
 
 **Treatment Analytics**
 
-![Treatment Page](Images/Treatment%20page.png)
+![Treatment Page](Images/Treatments.png)
 
 ---
 

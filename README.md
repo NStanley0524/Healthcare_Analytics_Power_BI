@@ -82,12 +82,33 @@ Below is an illustration of the data model:
 
 ## Analytical Approach
 
-### 1. **Patient Analytics**
+The dashboard is structured into four key analytical layers, each designed to answer specific operational and strategic questions within the hospital.
 
-- Monitor key stats: total visits, new vs returning, and readmissions.
-- Track patient demographics: age groups and originating locations.
-- Analyze monthly visit trends and visit outcomes (e.g., recovered, deceased).
-- View visit types, statuses, and patient distribution over time.
+---
+
+### 1. Patient Analytics
+
+This section focuses on understanding patient behavior, visit trends, and demographics.
+
+**Key Metrics**
+- Total Patients: 30  
+- Total Monthly Visits: 41 *(+17.14% vs previous month)*  
+- Average Visits per Patient: 1.37  
+- Average Visit Duration: 32.32 minutes  
+- Readmission Rate: 36.59%  
+
+**Analysis Performed**
+- Monthly trend analysis of patient visits  
+- Breakdown of new vs returning patients  
+- Age group segmentation (0–18, 18–35, 35–60, 60+)  
+- Geographic distribution of patients  
+- Visit outcome tracking (Recovered, Referred, Ongoing, Deceased)  
+
+**Key Insights**
+- Patient visits fluctuate throughout the year, with a noticeable mid-year peak  
+- A significant portion of visits are from returning patients  
+- Readmission rates are relatively high, indicating potential gaps in follow-up care  
+- The majority of patients fall within the 18–35 age group  
 
 **Patient Analytics**
 
@@ -95,12 +116,27 @@ Below is an illustration of the data model:
 
 ---
 
-### 2. **Departmental Efficiency**
+### 2. Department Analytics
 
-- View department-level KPIs: bed occupancy, waiting vs admitted percentages.
-- Identify which departments are under pressure due to high demand.
-- Explore a heatmap of visit activity by hour and weekday.
-- Track admission outcomes per department.
+This section evaluates hospital operations at the department level.
+
+**Key Metrics**
+- Total Departments: 4  
+- Waiting Cases: 34.20%  
+- Admission Rate: 66.77%  
+- Highest Occupied Department: Pediatrics  
+
+**Analysis Performed**
+- Bed occupancy analysis by department  
+- Admission vs waiting case distribution  
+- Department-level admission volume comparison  
+- Heatmap of visits by day of week and hour  
+
+**Key Insights**
+- A large percentage of patients remain in waiting status, suggesting operational bottlenecks  
+- Pediatrics and Cardiology experience higher occupancy levels  
+- Hospital activity peaks during midday hours and weekdays  
+- Resource utilization is uneven across departments  
 
 **Department Analytics**
 
@@ -108,11 +144,27 @@ Below is an illustration of the data model:
 
 ---
 
-### 3. **Doctor Performance Analytics**
+### 3. Doctor Performance Analytics
 
-- Monitor doctors' workload: number of patients, visits, and outcomes.
-- Evaluate doctor performance based on recovery, deceased, and referral rates.
-- View average treatment success per doctor and identify top performers.
+This section analyzes doctor workload and treatment effectiveness.
+
+**Key Metrics**
+- Total Doctors: 10  
+- Average Visits per Doctor: 4  
+- Patient Recovery Rate: 21.05%  
+- Top Performing Doctor: Laurie York  
+
+**Analysis Performed**
+- Visits per doctor comparison  
+- Monthly recovery rate trend analysis  
+- Outcome distribution by doctor (Recovered, Deceased, Referred)  
+- Performance quadrant analysis (efficiency vs workload)  
+
+**Key Insights**
+- Doctor workload is unevenly distributed  
+- Higher workloads may correlate with lower recovery rates  
+- Some doctors consistently outperform others, indicating best practices  
+- Performance quadrant highlights both high-efficiency and overloaded doctors  
 
 **Doctor Analytics**
 
@@ -120,12 +172,27 @@ Below is an illustration of the data model:
 
 ---
 
-### 4. **Treatment Outcomes Analytics**
+### 4. Treatment Analytics
 
-- Track total treatment types offered and their success rates.
-- Observe treatment outcome trends by department and illness type.
-- Monitor chronic illness trends over time (e.g., diabetes, hypertension).
-- Analyze average visit duration and unsuccessful treatment rates.
+This section evaluates treatment effectiveness, cost, and outcomes.
+
+**Key Metrics**
+- Total Treatments: 6  
+- Treatment Success Rate: 75%  
+- Readmission Rate: 20%  
+- Average Cost per Treatment: $640  
+
+**Analysis Performed**
+- Treatment success rate comparison across categories  
+- Monthly treatment trend analysis (e.g. Chemo vs X-ray)  
+- Cost vs success relationship analysis  
+- Outcome breakdown by treatment type  
+
+**Key Insights**
+- Treatment success varies across categories and over time  
+- Higher-cost treatments do not always yield better outcomes  
+- Some treatments show consistent performance, while others fluctuate  
+- Outcome distribution reflects a mix of recovered, referred, and ongoing cases  
 
 **Treatment Analytics**
 
@@ -165,9 +232,9 @@ Below is an illustration of the data model:
 
 ### 4. Treatments
 
-- Treatment success varies by department — Oncology shows lower than average.
-- Chronic illness cases like hypertension are increasing steadily over time.
-- Treatments for flu and asthma have very high recovery rates.
+- Treatment success varies by department — Chemotherapy shows higher treatment success.
+- X-Ray is underperforming as a treatment in this hospital .Low treatment success and higher decease cases.
+- Some months like March and June show very low trreatment rate across all treatments. Worth nothing.
 
 ---
 
@@ -271,58 +338,7 @@ Clinical Leadership / Quality Assurance Team
 
 ---
 
-### 5 Strengthen Oncology Treatment Outcomes
-
-### Problem Identified  
-**Oncology** treatments show lower-than-average success rates compared to other departments.
-
-### Action  
-Conduct targeted performance and process reviews within Oncology.
-
-### How to Implement  
-- Break down oncology outcomes by:
-  - Treatment type  
-  - Visit duration  
-  - Readmission status  
-- Introduce multidisciplinary case reviews for complex oncology cases.
-- Invest in early-detection programs and patient education for oncology-related conditions.
-- Monitor oncology KPIs separately on executive dashboards.
-
-### Owner  
-Oncology Department Head / Hospital Leadership
-
-### Expected Impact  
-- Improved oncology treatment outcomes  
-- Earlier intervention and diagnosis  
-- Enhanced patient trust and care quality  
-
----
-
-### 6 Proactively Manage Chronic Illness Growth Trends
-
-### Problem Identified  
-Cases of **chronic illnesses** such as hypertension are steadily increasing.
-
-### Action  
-Shift from reactive treatment to preventive care programs.
-
-### How to Implement  
-- Launch chronic disease management clinics or programs.
-- Schedule routine follow-ups and monitoring for chronic patients.
-- Partner with community health organizations for lifestyle and wellness education.
-- Track chronic illness visit trends and outcomes quarterly.
-
-### Owner  
-Public Health Unit / Preventive Care Team
-
-### Expected Impact  
-- Reduced long-term hospital visits  
-- Better patient quality of life  
-- Lower long-term healthcare costs  
-
----
-
-### 7 Use Time-Based Insights to Optimize Staffing and Operations
+### 5 Use Time-Based Insights to Optimize Staffing and Operations
 
 ### Problem Identified  
 Hospital activity peaks at specific **hours and weekdays**, causing uneven workload distribution.
@@ -345,7 +361,7 @@ Hospital Operations / Workforce Planning Team
 
 ---
 
-### 8 Expand Patient-Centric Care Using Location and Age Insights
+### 6 Expand Patient-Centric Care Using Location and Age Insights
 
 ### Problem Identified  
 Most patients come from **nearby urban areas**, with distinct age group patterns.
